@@ -1,0 +1,38 @@
+<view class="item-header">
+   <view class="item-title">{{item.title}} {{item.original_title}}({{item.year}})</view>
+   <view class="item-detail">
+      <view class="left-detail">
+         <view class="item-rate">
+            <start rate="{{item.rating.value}}" startfont="30" fontsize="30" color="#595959"></start>
+            <text class="comment-persons">{{item.rating.count}}人评论</text>
+         </view>
+         <view class="item-sub-detail">
+            <view class="item-type">
+               {{item.durations[0]}} {{genres}}
+            </view>
+            <view class="item-show">
+               {{item.pubdate}}上映 {{item.countries[0]}}
+            </view>
+            <view class="item-actors">
+               {{authors}}
+            </view>
+         </view>
+      </view>
+      <view class="right-detail">
+         <image src="{{item.cover.image.small.url}}"></image>
+      </view>
+   </view>
+</view>
+
+<view class="item-tags">
+   <view class="item-tags-title">豆瓣成员常用标签</view>
+   <view class="item-tags-list">
+      <text wx:for="{{tags}}" wx:key="*this">{{item}}</text>
+   </view>
+</view>
+
+<view class="comment-list-group">
+  <view class="comment-title">短评({{total}})</view>
+  <commentlist wx:for="{{comments}}" wx:key="{{item.id}}" item="{{item}}"></commentlist>
+  <navigator class="more-comment" url="/pages/douban/comments/comments?id={{id}}&type={{type}}&title={{item.title}}&thumbnail={{item.cover.image.small.url}}&rate={{item.rating.value}}">查看更多短评</navigator>
+</view>

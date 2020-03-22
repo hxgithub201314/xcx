@@ -1,0 +1,5 @@
+<view class="container">
+   <icon type="waiting" size="100"></icon>
+   <view>操作进行中{{seconds}}</view>
+   <button type="default" size="default">取消</button>
+</view>

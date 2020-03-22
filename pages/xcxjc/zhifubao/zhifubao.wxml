@@ -1,0 +1,82 @@
+<view class="container-group">
+   <view class="bule-group">
+      <view class="top-group">
+         <view class="search-group">
+             <input placeholder-class="placeholder-input" class="input-group" placeholder="蚂蚁花呗"></input>
+         </view>
+         <view class="more-group">
+           <image src="images/01.png"></image>
+           <image src="images/02.png"></image>
+         </view>
+      </view>
+      <view class="main-menu-group">
+         <view class="main-menu">
+            <image src="images/1.png"></image>
+             <text>扫一扫</text>
+         </view>
+          <view class="main-menu">
+            <image src="images/2.png"></image>
+             <text>付钱</text>
+         </view>
+          <view class="main-menu">
+            <image src="images/3.png"></image>
+             <text>收钱</text>
+         </view>
+          <view class="main-menu">
+            <image src="images/4.png"></image>
+             <text>卡包</text>
+         </view>
+      </view>
+   </view>
+   <view class="white-group">
+      <view class="menu-group">
+        <image src="images/5.png"></image>
+        <text>转账</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/6.png"></image>
+        <text>信用卡还贷</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/7.png"></image>
+        <text>充值中心</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/8.png"></image>
+        <text>余额宝</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/9.png"></image>
+        <text>淘票票电影</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/10.png"></image>
+        <text>滴滴出行</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/11.png"></image>
+        <text>生活缴费</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/12.png"></image>
+        <text>芝麻信用</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/13.png"></image>
+        <text>火车票机票</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/14.png"></image>
+        <text>蚂蚁借呗</text>
+      </view>
+
+       <view class="menu-group">
+        <image src="images/15.png"></image>
+        <text>高德打车</text>
+      </view>
+       <view class="menu-group">
+        <image src="images/16.png"></image>
+        <text>更多</text>
+      </view>
+   </view>
+</view>

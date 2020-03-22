@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mybox":"/components/mybox/mybox",
+    "mypage":"/components/mypage/mypage"
+  }
+}

@@ -1,0 +1,38 @@
+ .comment-group{
+ display: flex;
+ padding-top: 40rpx;
+}
+ .comment-group .left-comment{
+  width: 70rpx;
+  margin-right: 20rpx;
+}
+ .comment-group .left-comment .avatar{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+ .comment-group .left-comment .avatar image{
+  width: 100%;
+  height: 100%;
+}
+ .comment-group .right-comment{
+  flex: 1;
+}
+ .comment-group .right-comment .username-rate{
+  display: flex;
+  align-items: center;
+}
+.username{
+ font-size: 36rpx;
+ margin-right:20rpx;
+}
+.release-time{
+  color: #b3b3b3;
+  font-size: 32rpx;
+  margin-top:20rpx;
+}
+.content{
+  font-size: 32rpx;
+  color: #353535;
+  margin-top:20rpx;
+}

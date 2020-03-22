@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchbar": "/components/search/search",
+    "itemview":"/components/itemview/itemview"
+  }
+}

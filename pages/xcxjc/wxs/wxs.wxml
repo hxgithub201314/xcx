@@ -1,0 +1,4 @@
+<wxs src="wxs.wxs" module="m"></wxs>
+<wxs src="tools.wxs" module="tools"></wxs>
+<view>{{m.getWeekDay(day)}}</view>
+<view>{{tools.timeFormat(time)}}</view>

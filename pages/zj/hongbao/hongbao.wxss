@@ -1,0 +1,8 @@
+.scroll-view{
+  background: gray;
+}
+.circle-outer{
+  width: 100%;
+  height: 100px;
+  background: #e4e4e4;
+}

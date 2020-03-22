@@ -1,0 +1,11 @@
+<segment items="{{items}}" defaultIndex="{{currentIndex}}" bindpageIndex="changPageIndex">
+  <view class="segment-page news-page" wx:if="{{currentIndex === 0}}">
+    最新的页面
+  </view>
+  <view class="segment-page focus-page" wx:if="{{currentIndex === 1}}">
+    关注的页面
+  </view>
+  <view class="segment-page city-page" wx:if="{{currentIndex === 2}}">
+    同城的页面
+  </view>
+</segment>

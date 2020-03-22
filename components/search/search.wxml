@@ -1,0 +1,6 @@
+<view class="searchbar">
+   <navigator wx:if="{{isNavigator}}"url="/pages/douban/search/search" class="search-navigator"></navigator>
+   <view wx:else class="search-input-group">
+      <input placeholder="搜索" class="search-input" bindinput="onIunputSearch"></input>
+   </view>
+</view>

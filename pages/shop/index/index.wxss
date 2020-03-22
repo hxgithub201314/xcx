@@ -1,0 +1,14 @@
+.soloo{
+  width: 100%;
+  white-space: nowrap;
+}
+.soloo .soloo-item{
+  display: inline-block;
+  width: 150rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+}
+.soloo .active{
+  color: red;
+}

@@ -1,0 +1,11 @@
+<view class="box">
+   <view>这是头部</view>
+  <view class="body">
+    <view class="left-group">
+       <slot name="left" bindtap="leftEvent" data-index="0"></slot>
+    </view>
+    <view class="right-group">
+      <slot name="right" bindtap="leftEvent" data-index="1"></slot>
+    </view>
+  </view>
+</view>

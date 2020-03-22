@@ -1,0 +1,7 @@
+<searchbar isNavigator="{{true}}"></searchbar>
+<!-- 电影 -->
+<indexmodule title="电影" items="{{moves}}" moreurl="/pages/douban/list/list?type=move" type="move"></indexmodule>
+<!-- 电视剧 -->
+<indexmodule title="电视剧" items="{{tvs}}" moreurl="/pages/douban/list/list?type=tv" type="tv"></indexmodule>
+<!-- 综艺 -->
+<indexmodule title="综艺" items="{{shows}}" moreurl="/pages/douban/list/list?type=show" type="show"></indexmodule>

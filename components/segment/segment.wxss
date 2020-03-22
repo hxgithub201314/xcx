@@ -1,0 +1,27 @@
+.segment-group{
+  width: 100%;
+}
+.segment-group .segment-item-group{
+  width: 100%;
+  height: 50rpx;
+  border:1px solid #e4e4e4;
+  border-radius: 10px;
+  display: flex;
+}
+.segment-group .segment-item-group .segment-item{
+  flex: 1;
+  border-right:1px solid #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.segment-group .segment-item-group .segment-item:last-of-type{
+  border: none;
+}
+.segment-group .segment-item-group .active{
+  background: #1AAD16;
+  color: #fff;
+}
+.segment-body{
+  width: 100%;
+}

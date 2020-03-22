@@ -1,0 +1,6 @@
+<form bindsubmit="bindEvent">
+   <checkbox-group name="checkgroup">
+      <checkbox wx:for="{{list}}" wx:key="id" checked="{{item.checked}}"value="{{item.id}}">{{item.name}}</checkbox>
+      </checkbox-group>
+      <button form-type="submit">提交</button>
+</form>

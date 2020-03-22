@@ -1,0 +1,12 @@
+<!-- <scroll-view class="soloo" scroll-x="{{true}}" scroll-left="{{scrollLeft}}" scroll-with-animation="{{true}}">
+   <view data-current="{{index}}" bindtap="swichNav" class="soloo-item {{currentTab == index?'active':''}}" wx:for="{{tablist}}" wx:key="index">{{item}}</view>
+</scroll-view>
+<swiper  bindchange="swiperTab" current="{{currentTab}}" duration="300" style="height:{{windowHeight - 21}}px;">
+  <swiper-item wx:for="{{tablist}}" wx:key="index">{{item}}</swiper-item>
+</swiper> -->
+
+<van-tabs swipeable>
+  <van-tab wx:for="{{tablist}}" wx:key="index" title="{{item}}">
+     <view style="height:{{windowHeight - 44}}px;">{{item}}</view>
+  </van-tab>
+</van-tabs>

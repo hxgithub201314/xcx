@@ -1,0 +1,22 @@
+<view class="outer">
+  <view class="inner">1</view>
+  <view class="inner">2</view>
+  <view class="inner">3</view>
+</view>
+
+
+<view class="outer1">
+  <view class="inner1">1</view>
+   <view class="inner1">2</view>
+    <view class="inner1">3</view>
+</view>
+
+<!-- 多行flex布局  align-content -->
+<view class="outer2">
+  <view class="inner2">1</view>
+  <view class="inner2">1</view>
+  <view class="inner2">1</view>
+  <view class="inner2">1</view>
+  <view class="inner2">1</view>
+  <view class="inner2">1</view>
+</view>

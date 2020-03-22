@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "start":"/components/start/start",
+    "commentlist":"/components/commentlist/commentlist"
+  }
+}

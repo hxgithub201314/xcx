@@ -1,0 +1,8 @@
+<scroll-view class="scroll-view" scroll-y="{{true}}" 
+style="height:{{windowHeight}}px">
+   <view class="circle-outer">
+      <view class="circle-inner">
+          <view class="circle"></view>
+      </view>
+   </view>
+</scroll-view>

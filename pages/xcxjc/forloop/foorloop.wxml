@@ -1,0 +1,24 @@
+<view wx:for="{{books}}" wx:key="*this">
+    {{index}} -- {{item}}
+</view>
+
+<block wx:for="{{books}}" wx:for-index="idx" wx:for-item="value" wx:key="*this">
+    <view>{{idx}}</view>
+    <view>{{value}}</view>
+</block>
+
+<view class="row" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="row" wx:key="*this">
+  <view class="col" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="col" wx:key="*this" wx:if="{{col <= row}}">
+     
+         {{col}} * {{row}} = {{row * col}}
+     
+  </view>
+</view>
+
+
+<view wx:for="{{lines}}" wx:key="id">
+   <switch>{{item.name}}</switch>
+</view>
+
+<button bindtap="tapEvent">更新</button>
+

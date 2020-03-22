@@ -1,0 +1,3 @@
+<view wx:for="{{artile}}" wx:key="id" data-id="{{item.id}}" bindtap="onClickView">
+   {{item.title}}
+</view>

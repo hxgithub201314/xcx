@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  height: 100%;
+  overflow: hidden
+}
+.menu-left{
+  width: 300rpx;
+}
+.menu-left view{
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.secondtitle{
+  background: #efefef;
+  width: 100%
+}
+.secondContent{
+  height: 200rpx
+}

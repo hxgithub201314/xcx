@@ -1,0 +1,14 @@
+<swiper class="swiper" autoplay indicator-dots indicator-color="blue" indicator-active-color="red" style="width:{{width}}px;height{{height}}px" circular bindchange="changeEvent">
+  <swiper-item>
+    <image src="image/1.jpg"></image>
+  </swiper-item> <swiper-item>
+    <image src="image/2.jpg"></image>
+  </swiper-item>
+   <swiper-item>
+    <image src="image/3.jpg"></image>
+  </swiper-item>
+   <swiper-item>
+    <image src="image/4.jpg"></image>
+  </swiper-item>
+
+</swiper>

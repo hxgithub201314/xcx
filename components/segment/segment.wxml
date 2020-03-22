@@ -1,0 +1,11 @@
+<view class="segment-group">
+  <view class="segment-item-group">
+     <block wx:for="{{items}}" wx:key="*this">
+     <view data-index="{{index}}" bindtap="changeActive" wx:if="{{currentIndex === index}}" class="segment-item active" >{{item}}</view>
+     <view data-index="{{index}}" bindtap="changeActive" class="segment-item" wx:else>{{item}}</view>
+     </block>
+  </view>
+  <view class="segment-body">
+    <slot></slot>
+  </view>
+</view>

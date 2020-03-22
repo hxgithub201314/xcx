@@ -1,0 +1,5 @@
+<view>这是一条微博</view>
+<view wx:for="{{weibo}}" wx:key="*this">
+   {{item}}
+</view>
+<button type="primary" bindtap="gofabu">发布</button>

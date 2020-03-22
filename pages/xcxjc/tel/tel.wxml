@@ -1,0 +1,2 @@
+<import src="../../../templates/message/message.wxml" />
+<template is="message"  wx:for="{{message}}" data="{{...item}}"></template>

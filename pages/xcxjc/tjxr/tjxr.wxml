@@ -1,0 +1,9 @@
+<block wx:if="{{ weather == '晴天'}}">
+   <view>天气好</view>
+   <view>去旅行</view>  
+</block>
+<block wx:elif="{{ weather == '阴天'}}">
+  <view>阴天</view>
+  <view>去逛街</view>
+</block>
+<block wx:else>天气不好 不适宜出门</block>

@@ -1,0 +1,4 @@
+<view>{{username}}</view>
+<view wx:if="{{person.age > 18}}">可以进网吧</view>
+<view wx:else>不可以进网吧</view>
+<view>{{books[0]}}</view>

@@ -1,0 +1,44 @@
+.outer{
+  width: 100%;
+  height: 300rpx;
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+}
+.outer .inner{
+  width: 100rpx;
+  height:100rpx;
+  background:blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer1{
+  width: 100%;
+  height: 400rpx;
+  background: green;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+}
+.outer1 .inner1{
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+}
+
+.outer2{
+   width: 100%;
+  height: 500rpx;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.outer2 .inner2{
+   width: 150rpx;
+  height: 150rpx;
+  background: red;
+}

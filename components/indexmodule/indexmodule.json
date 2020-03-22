@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "start":"/components/start/start",
+    "itemview":"/components/itemview/itemview"
+  }
+}

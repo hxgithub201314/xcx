@@ -1,0 +1,3 @@
+<view class="outer">
+ <view class="inner"></view>
+</view>

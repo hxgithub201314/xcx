@@ -1,0 +1,9 @@
+.body{
+  display: flex;
+}
+.body .left-group{
+  flex:1
+}
+.body .right-group{
+  flex: 1
+}

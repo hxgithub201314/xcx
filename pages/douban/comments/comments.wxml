@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="item-group" bindtap="noGoBack">
+    <image class="thumbnail" src='{{thumbnail}}'></image>
+    <text class='item-title'>{{title}}</text>
+    <text class='item-rate'>{{rate}}分</text>
+  </view>
+    <view class='comment-title'>全部影评({{total}})</view>
+    <commentlist wx:for="{{commentList}}" wx:key="{{item.id}}" item="{{item}}"></commentlist>
+</view>

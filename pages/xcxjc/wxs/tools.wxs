@@ -1,0 +1,43 @@
+var weekdays = [
+  '星期一',
+  '星期二',
+  '星期三',
+  '星期四',
+  '星期五',
+  '星期六',
+  '星期天',
+]
+
+var timeFormat = function(time){
+  var date = getDate(time);
+  var date_seconds = date.getTime() / 1000;
+  var now = getDate();
+  var now_seconds = now.getTime() / 1000;
+  var timestamp = now_seconds - date_seconds;
+  var timestr = "";
+  if(timestamp < 60){
+    timestr = "刚刚"
+  }else if(timestamp >= 60 && timestamp <60*60){
+    var minutes = parseInt(timestamp / 60);
+    timestr = minutes + "分钟前"
+  }else if(timestamp >= 60*60 && timestamp < 60*60*24){
+    var hours = parseInt(timestamp /60 /60);
+    timestr = hours + "小时前"
+  }else if(timestamp >= 60*60*24 && timestamp < 60*60*24*30){
+    var day = parseInt(timestamp /60 /60 /24);
+    timestr = day + "天前"
+  }else{
+    timestr = ""
+    // var year = date.getFullYear();
+    // var month = date.getDate();
+    // var day = date.getDate();
+    // var hour = date.getHours();
+    // var minutes = date.getMinutes();
+    // timestr = year + "/" + month + "/" + day + "/" + "" + hour + ":" + minutes;
+    return timestr;
+  }
+}
+module.exports = {
+  weekdays: weekdays,
+  timeFormat: timeFormat
+}

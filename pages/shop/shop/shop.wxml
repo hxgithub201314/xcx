@@ -1,0 +1,20 @@
+<view class="container">
+   <scroll-view class="menu-left" scroll-y="{{true}}" scroll-with-animation="true">
+   <block wx:for="{{categorys}}">
+      <view data-id="{{item.id}}" data-index="{{index}}" bindtap="menuChange">{{item.name}}</view>
+   </block>
+   </scroll-view>
+   <scroll-view class="menu-right" scroll-y="{{true}}" scroll-with-animation="true" scroll-into-view="{{rightViewId}}">  
+      <view wx:for="{{categorys}}" wx:for-item="categorys" id="{{categorys.id}}">
+        <text class="secondtitle">{{categorys.name}}</text>
+        <block wx:for="{{categorys.list}}" wx:key="index">
+           <view class="secondContent">
+               <!-- <image :src="{{item.img}}"></image> -->
+               <text class="content-item">{{item.cateName}}</text>
+           </view>
+        </block>
+   </view>
+   </scroll-view>
+</view>
+
+

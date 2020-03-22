@@ -1,0 +1,6 @@
+.content{
+  color: red;
+}
+.friend{
+  float: right
+}
